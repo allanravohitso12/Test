@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Test technique – Intégration Frontend
 
-# Run and deploy your AI Studio app
+## Objectif
+Réalisation d’un test technique frontend basé sur une maquette fournie, avec un focus sur :
+- la rapidité d’exécution
+- la fidélité visuelle
+- la qualité du rendu
 
-This contains everything you need to run your app locally.
+## Stack utilisée
+- React
+- Vite
+- Tailwind CSS
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LdCQKAixkfDh3CGHK9j7p2bPHJ0popRy
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Installation & lancement
+```bash
+npm install
+npm run dev
